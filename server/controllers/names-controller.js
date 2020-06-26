@@ -4,7 +4,14 @@ IBMCloudEnv.init('/server/config/mappings.json');
 
 // initialize Cloudant
 const CloudantSDK = require('@cloudant/cloudant');
-const cloudant = new CloudantSDK(IBMCloudEnv.getString('cloudant_url'));
+//const cloudant = new CloudantSDK(IBMCloudEnv.getString('cloudant_url'));
+const url = IBMCloudEnv.getString('cloudant_url');
+const usr = IBMCloudEnv.getString('username');
+const psw = IBMCloudEnv.getString('password');
+
+const cloudant = new CloudantSDK({ url: url, 
+username: usr, 
+password: psw });
 
 // create mydb database if it does not already exist
 cloudant.db.create('mydb')

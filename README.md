@@ -124,3 +124,17 @@ By default, a [Husky](https://github.com/typicode/husky) pre-commit hook is defi
 This sample application is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 [Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+
+
+Notatki
+
+
+Demo Watson translate
+
+https://www.ibm.com/watson/services/language-translator/
+
+SDK do Node.JS
+https://github.com/watson-developer-cloud/node-sdk
+
+MultiChat Bot
+https://github.com/with-watson/multilingual-chatbot

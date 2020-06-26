@@ -24,8 +24,14 @@ function getNames() {
   http.onreadystatechange = function() {
     if (http.readyState === XMLHttpRequest.DONE && http.status === 200) {
       responseData = JSON.parse(http.responseText);
-      responseData.sort((a, b) => a.timestamp.localeCompare(b.timestamp));
+      //responseData.sort((a, b) => a.timestamp.localeCompare(b.timestamp));
       updateResponseArea(responseData);
+      let responseHead = document.querySelector('#responseHead');
+      let responseArea = document.querySelector('#responseArea');
+
+      responseHead.textContent = 'Database contents:';
+
+
     } else if (http.readyState === XMLHttpRequest.DONE) {
       alert('An error occurred when getting names from the database.');
     }

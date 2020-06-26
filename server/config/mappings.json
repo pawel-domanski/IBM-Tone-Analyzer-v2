@@ -8,5 +8,77 @@
       "env:CLOUDANT_URL",
       "file:/server/localdev-config.json:$.cloudant_url"
     ]
+  },
+  "username": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.username",
+      "env:service_cloudant:$.username",
+      "env:username",
+      "env:username",
+      "file:/server/localdev-config.json:$.username"
+    ]
+  },
+  "password": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.password",
+      "env:service_cloudant:$.password",
+      "env:password",
+      "env:password",
+      "file:/server/localdev-config.json:$.password"
+    ]
+  },
+  "ta_apikey": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.ta_apikey",
+      "env:service_cloudant:$.ta_apikey",
+      "env:ta_apikey",
+      "env:TA_APIKEY",
+      "file:/server/localdev-config.json:$.ta_apikey"
+    ]
+  },
+  "ta_version": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.ta_version",
+      "env:service_cloudant:$.ta_version",
+      "env:ta_version",
+      "env:TA_VERSION",
+      "file:/server/localdev-config.json:$.ta_version"
+    ]
+  },
+  "ta_url": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.ta_url",
+      "env:service_cloudant:$.ta_url",
+      "env:ta_url",
+      "env:TA_URL",
+      "file:/server/localdev-config.json:$.ta_url"
+    ]
+  },
+  "lt_apikey": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.lt_apikey",
+      "env:service_cloudant:$.lt_apikey",
+      "env:lt_apikey",
+      "env:LT_APIKEY",
+      "file:/server/localdev-config.json:$.lt_apikey"
+    ]
+  },
+  "lt_version": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.lt_version",
+      "env:service_cloudant:$.lt_version",
+      "env:lt_version",
+      "env:LT_VERSION",
+      "file:/server/localdev-config.json:$.lt_version"
+    ]
+  },
+  "lt_url": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudant'][0].credentials.lt_url",
+      "env:service_cloudant:$.lt_url",
+      "env:lt_url",
+      "env:LT_URL",
+      "file:/server/localdev-config.json:$.lt_url"
+    ]
   }
 }

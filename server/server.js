@@ -4,9 +4,12 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const nameRoutes = require('./routes/names-route.js');
 const healthRoutes = require('./routes/health-route.js');
+var cors = require('cors')
+// api do ogsługi emocji w języku polskim
+const emotionRoutes = require('./routes/emotion-route.js');
 
 const app = express();
-
+app.use(cors());
 // enable parsing of http request body
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -17,6 +20,7 @@ app.use(express.static(path.join('public')));
 // routes and api calls
 app.use('/health', healthRoutes);
 app.use('/api/names', nameRoutes);
+app.use('/api/emotion', emotionRoutes);
 
 // start node server
 const port = process.env.PORT || 3000;

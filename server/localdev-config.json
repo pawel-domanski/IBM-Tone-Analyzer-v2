@@ -1,4 +1,19 @@
 {
   "port": 3000,
-  "cloudant_url": "<REPLACE_ME_FOR_LOCAL_DEV>"
+  "cloudant_url": "https://ad0dba76-c26c-425f-8212-a3b40cf1868c-bluemix.cloudantnosqldb.appdomain.cloud/",
+  "username": "ad0dba76-c26c-425f-8212-a3b40cf1868c-bluemix",
+  "apikey": "VtdkDamqjQ0nsveJxcII9iBjSe09BexroPfull_Ruoxi",
+  "host": "ad0dba76-c26c-425f-8212-a3b40cf1868c-bluemix.cloudantnosqldb.appdomain.cloud",
+  "iam_apikey_description": "Auto-generated for key c5f1f29f-ec27-42ea-9d7b-2f2cdecd0340",
+  "iam_apikey_name": "Service credentials-2",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Reader",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/0374f7468aaa97e7ce23587e3c4ed809::serviceid:ServiceId-93c83a44-983d-48b1-ab18-23ab3c12ec2b",
+  "password": "cbdce1e810020fdc22e224b47b358de5e54e5dab268d3127383af4c9326abe01",
+  "url": "https://ad0dba76-c26c-425f-8212-a3b40cf1868c-bluemix:cbdce1e810020fdc22e224b47b358de5e54e5dab268d3127383af4c9326abe01@ad0dba76-c26c-425f-8212-a3b40cf1868c-bluemix.cloudantnosqldb.appdomain.cloud",
+  "ta_apikey": "C8vTS5Ao3fAa_kFFW4W9FIY7eKlzBUQZazd_VQvkxVmb",
+  "ta_version":  "2017-09-21",
+  "ta_url": "https://api.eu-gb.tone-analyzer.watson.cloud.ibm.com/instances/502abec3-4f42-4ccd-995d-09cae00d4e00",
+  "lt_apikey": "Rc0AHfPVj7qDIjtykX4TxuKiqYsyWsAKcGkQg3EbnDdX",
+  "lt_version": "2018-05-01",
+  "lt_url": "https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/547b6046-a2ef-4c2e-9a47-47adca2b0370"
 }
