@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 const LanguageTranslatorV3 = require('ibm-watson/language-translator/v3');
 
+var binding = [];
+
 let languageTranslator = new LanguageTranslatorV3({
   iam_apikey: binding.apikey,
   url: binding.url,

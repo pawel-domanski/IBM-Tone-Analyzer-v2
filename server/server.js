@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const nameRoutes = require('./routes/names-route.js');
 const healthRoutes = require('./routes/health-route.js');
-var cors = require('cors')
+var cors = require('cors');
 // api do ogsługi emocji w języku polskim
 const emotionRoutes = require('./routes/emotion-route.js');
 

@@ -17,9 +17,6 @@ const cloudant = new CloudantSDK({ url: url,
   password: psw });
 
 const mydb = cloudant.db.use('mydb');
-const converter = require('json-2-csv');
-
-var json_data = [];
 
 mydb.list({include_docs: true})
   .then(fetchedNames => {

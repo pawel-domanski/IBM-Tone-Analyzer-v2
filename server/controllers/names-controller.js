@@ -1,10 +1,10 @@
-//import dependencies
+// import dependencies
 const IBMCloudEnv = require('ibm-cloud-env');
 IBMCloudEnv.init('/server/config/mappings.json');
 
-//initialize Cloudant
+// initialize Cloudant
 const CloudantSDK = require('@cloudant/cloudant');
-//const cloudant = new CloudantSDK(IBMCloudEnv.getString('cloudant_url'));
+// const cloudant = new CloudantSDK(IBMCloudEnv.getString('cloudant_url'));
 const url = IBMCloudEnv.getString('cloudant_url');
 const usr = IBMCloudEnv.getString('username');
 const psw = IBMCloudEnv.getString('password');
