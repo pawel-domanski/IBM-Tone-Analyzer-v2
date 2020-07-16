@@ -75,5 +75,5 @@ jobs:
 
           #docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
           #docker push $IMAGE_ID:$VERSION
-          docker tag $IMAGE_NAME $IMAGE_ID:$VERSION quay-enterprise-quay-enterprise.quay-enterprise-d-307161-c3d6e5e87e1b5b53c8cbab7b29828047-0001.us-south.containers.appdomain.cloud/ibm-emocje/api-pipeline-v2:$VERSION
+          docker tag quay-enterprise-quay-enterprise.quay-enterprise-d-307161-c3d6e5e87e1b5b53c8cbab7b29828047-0001.us-south.containers.appdomain.cloud/ibm-emocje/api-pipeline-v2:$VERSION
           docker push quay-enterprise-quay-enterprise.quay-enterprise-d-307161-c3d6e5e87e1b5b53c8cbab7b29828047-0001.us-south.containers.appdomain.cloud/ibm-emocje/api-pipeline-v2:$VERSION
