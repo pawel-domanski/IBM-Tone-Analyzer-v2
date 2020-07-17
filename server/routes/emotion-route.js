@@ -69,6 +69,7 @@ router.post('/:ta_text', function(req, res) {
       };
       toneAnalyzer.tone(toneParams)
         .then(toneAnalysis => {
+          // eslint-disable-next-line max-len
           var output_tone = JSON.parse(JSON.stringify(toneAnalysis, null, 2)).result;
           // Utworzenie odpowiedzi do wysłania do bazy
           var output_total = {
